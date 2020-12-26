@@ -11,7 +11,7 @@ I am learning programming languages like:
 * *JavaScript*
 
 In the near future, I plan to completely connect my life with this activity.
-During my studies at the university, I managed to learn **OpenGL** and **SFML**, at the moment I am studying front-end development.
+During my studies at the university, I managed to learn **OpenGL** and **SFML**, at the moment I am studying Front-End development.
 
 ---
 ### As an example of code, I want to give a piece from my term paper ###
