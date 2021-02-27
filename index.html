@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>My CV</header>
+        <div class="name"> Maxim Korzenok </div>
+          <div class="avatar"><img src="https://sun9-8.userapi.com/impf/i3RDGumyUexWZiG3AiSuAvfjwJ_kevq29kpMVQ/XQnEjnVRDHE.jpg?size=900x900&quality=96&proxy=1&sign=75f2e71f759fabf08ad9115fcd9743c0&type=album" alt="avatar"></div>  
+        
+        
+    <div class="contact">
+        <div class="contact__email"><b>E-mail:</b> <a class="mail" href="mailto:maximka00007777@gmail.com">maximka00007777@gmail.com</a></div>
+        <div class="contact__discord">You can also contact with me in DISCORD: <b>Juzete#7450</b> </div>
+    </div>
+    <hr>
+    <div class="plans">
+        <h3>My Plans</h3>
+        <p>In the near future, I want to completely connect my life with programming. 
+            I’m ready to do everything that is required of me to achieve my goal.
+            I approach my tasks responsibility and always try to complete them on time.</p>
+    </div>
+    <hr>
+    <div class="skills">
+        <p>I am learning programming languages like:</p>
+        <ul>
+            <li><em>C++</em></li>
+            <li><em>JavaScript</em></li>
+        </ul>
+        <p>In the near future, I plan to completely connect my life with this activity.
+           During my studies at the university, I managed to learn OpenGL and SFML, at the moment I am studying front-end development.</p>
+    </div>
+    <hr>
+    <div class="example">
+        <h4>As an example of code, I want to give a piece from my term paper</h4>
+        <div class="example-code">
+            <pre>
+void GameState::HandleInput()
+{
+    sf::Event event;
+    while (this->_data->window.pollEvent(event))
+    {
+        if (sf::Event::Closed == event.type)
+        {
+            this->_data->window.close();
+        }
+        if (this->_data->input.IsSpriteClicked(this->_pauseButton, sf::Mouse::Left, this->_data->window))
+        {
+            this->_data->machine.AddState(StateRef(new PauseState(_data)), false);
+        }
+        else if (this->_data->input.IsSpriteClicked(this->_gridSprite, sf::Mouse::Left, this->_data->window))
+        {
+            if (STATE_PLAYING == gameState)
+            {
+                this->CheckAndPlacePiece();
+            }
+        }
+    }
+}</pre>
+        </div>
+    </div>
+    <hr>
+    <div class="english">
+        <p>My level of English is Pre-Intermediate, but I plan to raise it to at least Upper-Intermediate.</p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
